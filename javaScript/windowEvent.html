@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="openWindow()">Open Google</button>
+     <button onclick="window.close()">Close Window</button>
+
+<script>
+function openWindow() {
+    window.open("https://www.google.com","_blank","width=800,height=600");
+}
+function closeWindow() {
+    window.close();
+}
+function moveWindow() {
+    window.moveTo(100,100);
+}
+function moveByWindow() {
+    window.moveBy(50,50);
+}
+</script>
+</body>
+</html>

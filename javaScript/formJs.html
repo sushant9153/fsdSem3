@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div id="Box1">
+        <h1>KEYBOARD Events</h1>
+        <p>onKeyDown</p>
+        <input type="text" class="in" onkeyup="eventCall()">
+        <p>onKeyUp</p>
+        <input type="text" class="in" onkeydown="section()">
+          <p>onKeypress</p>
+        <input type="text" class="in" onkeypress="section()">
+
+    </div> -->
+     <div id="FORM">
+        <h1>KEYBOARD Events</h1>
+        <p>onKeyDown</p>
+        <input type="text" onkeydown="document.getElementById('FORM').style.background = this.value">
+          <p>onKeypress</p>
+        <input type="text" class="in" onkeypress="section()">
+
+    </div>
+     <script>
+    function eventCall(){
+        alert("WriteProperlyBROO!!");
+    }
+    function section(){
+        alert("AreUdumb??");
+    }
+  </script>
+</body>
+</html>
