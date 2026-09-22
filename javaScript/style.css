@@ -1,0 +1,23 @@
+#Box1 {
+     width: 600px;
+      height: 600px;
+      background-color: rgb(0, 255, 42);
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 50px;
+      margin: 50px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+#FORM {
+     width: 600px;
+      height: 600px;
+      background-color: rgb(0, 255, 42);
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 50px;
+      margin: 50px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+.in {
+    border: 2px;
+}
